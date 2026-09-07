@@ -2,26 +2,26 @@
   "profile": {
     "name": "Md Shahnewaj Al Hasan",
     "headline": "Physics Researcher & Full-Stack Web Developer",
-    "bio": "Undergraduate physics student at the University of Chittagong with a passion for nuclear physics and quantum mechanics. Alongside research, I build modern, performant web applications across the full stack. I am seeking a scholarship to further explore the intersection of computational physics and software engineering.",
+    "bio": "Undergraduate physics student at the University of Chittagong with a passion for nuclear physics and quantum mechanics. Pursuing research at the intersection of nuclear theory and fusion technology, I aim to contribute to the development of clean, sustainable energy through advanced plasma physics and nuclear fusion science. I am seeking a scholarship to further explore fusion reactor design and computational nuclear physics.",
     "location": "Chittagong, Bangladesh",
     "avatar": "",
     "socials": [
       {
         "label": "Email",
-        "value": "shahnewaj@example.com",
-        "href": "mailto:shahnewaj@example.com",
+        "value": "mdshahnewajalhasan@std.cu.ac.bd",
+        "href": "mailto:mdshahnewajalhasan@std.cu.ac.bd",
         "icon": "email"
       },
       {
         "label": "GitHub",
         "value": "github.com/shahnewaj",
-        "href": "https://github.com/",
+        "href": "https://github.com/shahnewaj12008044",
         "icon": "github"
       },
       {
         "label": "LinkedIn",
         "value": "linkedin.com/in/shahnewaj",
-        "href": "https://linkedin.com/",
+        "href": "https://www.linkedin.com/in/shahnewajalhasan/",
         "icon": "linkedin"
       },
       {
