@@ -1,0 +1,217 @@
+{
+  "profile": {
+    "name": "Md Shahnewaj Al Hasan",
+    "headline": "Physics Researcher & Full-Stack Web Developer",
+    "bio": "Undergraduate physics student at the University of Chittagong with a passion for nuclear physics and quantum mechanics. Alongside research, I build modern, performant web applications across the full stack. I am seeking a scholarship to further explore the intersection of computational physics and software engineering.",
+    "location": "Chittagong, Bangladesh",
+    "avatar": "",
+    "socials": [
+      {
+        "label": "Email",
+        "value": "shahnewaj@example.com",
+        "href": "mailto:shahnewaj@example.com",
+        "icon": "email"
+      },
+      {
+        "label": "GitHub",
+        "value": "github.com/shahnewaj",
+        "href": "https://github.com/",
+        "icon": "github"
+      },
+      {
+        "label": "LinkedIn",
+        "value": "linkedin.com/in/shahnewaj",
+        "href": "https://linkedin.com/",
+        "icon": "linkedin"
+      },
+      {
+        "label": "Google Scholar",
+        "value": "scholar.google.com",
+        "href": "https://scholar.google.com/",
+        "icon": "scholar"
+      }
+    ]
+  },
+  "categories": [
+    {
+      "id": "voluntary",
+      "label": "Voluntary",
+      "description": "Community service and volunteering engagements."
+    },
+    {
+      "id": "academic",
+      "label": "Marksheets & Academic Records",
+      "description": "Official transcripts and academic performance records."
+    },
+    {
+      "id": "leadership",
+      "label": "Leadership",
+      "description": "Leadership roles and organizational responsibilities."
+    },
+    {
+      "id": "physics",
+      "label": "Physics Competition",
+      "description": "Physics olympiads, competitions, and subject achievements."
+    }
+  ],
+  "certificates": [
+    {
+      "id": "cert-volunteer",
+      "title": "Volunteer Service Recognition",
+      "issuer": "Community Organization",
+      "date": "2023",
+      "description": "Recognition for dedicated voluntary community service.",
+      "category": "voluntary",
+      "image": "/certificates/volunteer.png",
+      "order": 0
+    },
+    {
+      "id": "cert-marksheet-1",
+      "title": "1st Year Marksheet",
+      "issuer": "University of Chittagong",
+      "date": "2021",
+      "description": "First year academic transcript, Department of Physics.",
+      "category": "academic",
+      "image": "/certificates/marksheet-1st-year.png",
+      "order": 0
+    },
+    {
+      "id": "cert-marksheet-2",
+      "title": "2nd Year Marksheet",
+      "issuer": "University of Chittagong",
+      "date": "2022",
+      "description": "Second year academic transcript, Department of Physics.",
+      "category": "academic",
+      "image": "/certificates/marksheet-2nd-year.png",
+      "order": 1
+    },
+    {
+      "id": "cert-marksheet-3",
+      "title": "3rd Year Certificate",
+      "issuer": "University of Chittagong",
+      "date": "2023",
+      "description": "Third year academic completion certificate.",
+      "category": "academic",
+      "image": "/certificates/marksheet-3rd-year.png",
+      "order": 2
+    },
+    {
+      "id": "cert-british-council",
+      "title": "British Council English Certificate",
+      "issuer": "British Council",
+      "date": "2022",
+      "description": "English language proficiency certification.",
+      "category": "academic",
+      "image": "/certificates/british-council-english.jpg",
+      "order": 3
+    },
+    {
+      "id": "cert-data-science-math",
+      "title": "Data Science Math Skills",
+      "issuer": "Coursera",
+      "date": "2023",
+      "description": "Mathematics foundations for data science.",
+      "category": "academic",
+      "image": "/certificates/data-science-math.jpeg",
+      "order": 4
+    },
+    {
+      "id": "cert-mern",
+      "title": "MERN Stack Certification",
+      "issuer": "Online Academy",
+      "date": "2023",
+      "description": "Full-stack development with MongoDB, Express, React, and Node.js.",
+      "category": "academic",
+      "image": "/certificates/mern-stack.jpg",
+      "order": 5
+    },
+    {
+      "id": "cert-doc13",
+      "title": "Leadership Certificate",
+      "issuer": "Student Organization",
+      "date": "2023",
+      "description": "Recognition of leadership and organizational contribution.",
+      "category": "leadership",
+      "image": "/certificates/document-13.jpg",
+      "order": 0
+    },
+    {
+      "id": "cert-doc13-1",
+      "title": "Leadership Certificate II",
+      "issuer": "Student Organization",
+      "date": "2023",
+      "description": "Additional leadership recognition.",
+      "category": "leadership",
+      "image": "/certificates/document-13-1.jpg",
+      "order": 1
+    },
+    {
+      "id": "cert-doc13-2",
+      "title": "Leadership Certificate III",
+      "issuer": "Student Organization",
+      "date": "2023",
+      "description": "Additional leadership recognition.",
+      "category": "leadership",
+      "image": "/certificates/document-13-2.jpg",
+      "order": 2
+    },
+    {
+      "id": "cert-physics-cu",
+      "title": "Physics Achievement — University of Chittagong",
+      "issuer": "University of Chittagong",
+      "date": "2023",
+      "description": "Recognition in physics at the University of Chittagong.",
+      "category": "physics",
+      "image": "/certificates/physics-cu.jpg",
+      "order": 0
+    },
+    {
+      "id": "cert-physics-974",
+      "title": "Physics Competition Award",
+      "issuer": "Physics Society",
+      "date": "2022",
+      "description": "Award for outstanding performance in physics competition.",
+      "category": "physics",
+      "image": "/certificates/physics-974.png",
+      "order": 1
+    }
+  ],
+  "papers": [
+    {
+      "id": "paper-fe56-residual-risk",
+      "title": "Reaction-Conditioned Residual-Risk Screening of 56Fe Neutron Cross-Section Predictions Using EXFOR Data",
+      "abstract": "Reaction-conditioned residual-risk screening applied to 17,329 reaction-harmonized EXFOR measurements of 56Fe, drawn from 135 experiment groups across five neutron-induced channels. Under nested experiment-group holdout the experiment-balanced error falls by about 12 percent while every group stays represented, a reduction that matched-random retention does not reproduce. The method is offered as an empirical diagnostic that complements evaluated libraries, covariance assessment and expert review, not as physical uncertainty quantification.",
+      "authors": "Mustofa Khalid Ovi, Md. Shahnewaj Al Hasan, Mst. Ummey Habiba Musfika, Md. Salman Shamil, A. K. M. Rezaur Rahman, Md. Masum Rana Pramanik",
+      "venue": "International Journal of Modern Physics E · Under review",
+      "date": "",
+      "driveLink": "https://drive.google.com/file/d/1yNxj9JG0BFiPRa2nWAPXJMm3x_P5mGfw/view?usp=sharing",
+      "tags": [
+        "Neutron Cross Sections",
+        "56Fe",
+        "EXFOR",
+        "Residual-Risk Screening",
+        "TALYS",
+        "Nuclear Data"
+      ],
+      "order": 0
+    },
+    {
+      "id": "paper-level-density-fe-np",
+      "title": "Theoretical Evaluation of Level-Density Effects in Neutron-Induced Fe(n,p)Mn Reactions",
+      "abstract": "Excitation functions for all four Fe(n,p)Mn reactions computed with the TALYS reaction code under four nuclear level-density models (CTFG, BSFG, GSM and HFB), then benchmarked against the EXFOR record and the TENDL-2023, JEFF-3.3, JENDL-5 and ENDF/B-VIII.1 libraries. A ratio-to-mean spread metric from 1 to 20 MeV quantifies how far the models diverge and shows a strongly isotope-dependent sensitivity to the level-density choice. For the least-measured isotopes, level density is the dominant source of theoretical uncertainty across most of the excitation function.",
+      "authors": "Marzan Matubbar, Md. Shahnewaj Al Hasan, Sams Rafsan Rahim, MD. Abdulla Al Raihan, Sakibul Islam Shihab, Khamrul Hasan, A. K. M. Rezaur Rahman",
+      "venue": "Department of Physics, University of Chittagong · Manuscript",
+      "date": "",
+      "driveLink": "https://drive.google.com/file/d/1C-csgXgwxlfMCnmHPZN_YjaqPCTpnTOD/view?usp=sharing",
+      "tags": [
+        "Nuclear Level Density",
+        "(n,p) Cross Sections",
+        "TALYS",
+        "Hauser-Feshbach",
+        "Neutron Dosimetry",
+        "EXFOR"
+      ],
+      "order": 1
+    }
+  ]
+}

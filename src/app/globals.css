@@ -1,0 +1,97 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #05070d;
+  --foreground: #e2e8f0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Hide the native cursor on pointer-fine (desktop) devices where the custom
+   neutron cursor takes over. Touch devices keep default behavior. */
+@media (hover: hover) and (pointer: fine) {
+  body.custom-cursor,
+  body.custom-cursor * {
+    cursor: none;
+  }
+}
+
+/* Glassmorphism surface */
+.glass {
+  background: rgba(15, 21, 36, 0.55);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid rgba(148, 163, 184, 0.12);
+}
+
+.glass-strong {
+  background: rgba(10, 14, 26, 0.8);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(148, 163, 184, 0.15);
+}
+
+/* Radial quantum glow used behind hero content */
+.quantum-radial {
+  background: radial-gradient(
+    circle at 50% 40%,
+    rgba(34, 211, 238, 0.12),
+    transparent 60%
+  );
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #0a0e1a;
+}
+::-webkit-scrollbar-thumb {
+  background: #1f2740;
+  border-radius: 6px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #2b3552;
+}
+
+/* Gradient text helper */
+.text-gradient {
+  background: linear-gradient(120deg, #22d3ee, #34f5a0 60%, #3b82f6);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+/* Keep anchored sections clear of the fixed top navigation bar. */
+section[id] {
+  scroll-margin-top: 1.5rem;
+}
+@media (min-width: 768px) {
+  section[id] {
+    scroll-margin-top: 6rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
